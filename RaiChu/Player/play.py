@@ -139,8 +139,8 @@ async def play(c: Client, m: Message):
                       InlineKeyboardButton("⏭️", "skip"),
                       InlineKeyboardButton("▶️", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton("𝙅𝙤𝙞𝙣 𝙂𝙧𝙤𝙪𝙥", url=f"https://t.me/LGCY_OFFICIAL"),
-                      InlineKeyboardButton("𝘿𝙀𝙑𝙇𝙊𝙋𝙀𝙍", url=f"https://t.me/lgcyalex"),
+                      InlineKeyboardButton("𝙅𝙤𝙞𝙣 𝙂𝙧𝙤𝙪𝙥", url=f"https://t.me/NAVYA_DISCUSE,
+                      InlineKeyboardButton("𝘿𝙀𝙑𝙇𝙊𝙋𝙀𝙍", url=f"https://t.me/NAVYA_OP"),
                   ],[
                       InlineKeyboardButton("🗑Close", callback_data="cls")],
                   ]
@@ -254,7 +254,7 @@ async def play(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("𝙅𝙤𝙞𝙣 𝙂𝙧𝙤𝙪𝙥", url=f"https://t.me/LGCY_OFFICIAL")
+                            InlineKeyboardButton("𝙅𝙤𝙞𝙣 𝙂𝙧𝙤𝙪𝙥", url=f"https://t.me/NAVYA_DISCUSE")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
@@ -264,7 +264,7 @@ async def play(c: Client, m: Message):
             )
         else:
             suhu = await m.reply_text(
-        f"**Downloading**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
+        f"**Downloading**\n\n0% ▓N▓A▓V▓Y▓A▓ 100%"
     )
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
@@ -299,7 +299,7 @@ async def play(c: Client, m: Message):
                     else:
                         try:
                             await suhu.edit(
-                            f"**𝙇𝙂𝙘𝙔・𝘼𝙇𝙀𝙓 Downloader**\n\n**Title**: {title[:22]}\n\n████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**NavyA Downloader**\n\n**Title**: {title[:22]}\n\n▓N▓A▓V▓Y▓A▓100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                             await call_py.join_group_call(
                                 chat_id,
