@@ -34,20 +34,20 @@ async def _human_time_duration(seconds):
 async def start(_, message: Message):
         await message.reply_text(
         f"""**I ᴀᴍ 𝙇𝙂𝙘𝙔・𝘽𝙊𝙏
-ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [𝙇𝙂𝙘𝙔・𝘼𝙇𝙀𝙓](https://t.me/lgcyalex)**
+ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [NAVYA](https://t.me/NAVYA)**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙈𝙚", url="https://t.me/lgcyalex"
+                        "𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙈𝙚", url="https://t.me/NAVYA_OP"
                     ),
                     InlineKeyboardButton(
                         "𝘾𝙤𝙢𝙢𝙖𝙣𝙙 𝙇𝙞𝙨𝙩🛠", url="https://telegra.ph/%C5%81GcYA%C5%81EX-02-18"
                     )
                   ],[
                     InlineKeyboardButton(
-                       "𝙅𝙤𝙞𝙣 𝙂𝙧𝙤𝙪𝙥", url="https://t.me/LGCY_OFFICIAL"
+                       "𝙅𝙤𝙞𝙣 𝙂𝙧𝙤𝙪𝙥", url="https://t.me/NAVYA_SUPPORT"
                     ),
                     InlineKeyboardButton(
                         "𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="https://t.me/Clan8Xofficial"
