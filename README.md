@@ -43,7 +43,7 @@
 
 
 
-
+​[![​Deploy+on+Railway​](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/LagacyAlex/LGCY_ALEX_VC_Player&envs=API_HASH,API_ID,BOT_TOKEN,SESSION_NAME,SUDO_USERS)
 
 
 # Special Thanks
