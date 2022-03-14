@@ -20,7 +20,7 @@ from pytgcalls.types.input_stream.quality import (
     MediumQualityVideo,
 )
 from youtubesearchpython import VideosSearch
-IMAGE_THUMBNAIL = "https://telegra.ph/file/925c322768885257bf203.jpg"
+IMAGE_THUMBNAIL = "https://te.legra.ph/file/2e8980f87879b9df4f2a5.jpg"
 
 
 def ytsearch(query: str):
@@ -182,8 +182,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/LGCY_OFFICIALYT"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/LGCY_OFFICIAL")
+                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/NAVYA_SUPPORT"),
+                            InlineKeyboardButton("💭 Support", url=f"https://t.me/NAVYA_DISCUSE")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
@@ -192,7 +192,7 @@ async def vplay(c: Client, m: Message):
                 )
             )
             else:
-                loser = await c.send_message(chat_id, f"**Downloading.....**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
+                loser = await c.send_message(chat_id, f"**Downloading.....**\n\n0% ▓N▓A▓V▓Y▓A▓ 100%"
                       )
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
@@ -229,7 +229,7 @@ async def vplay(c: Client, m: Message):
                         else:
                             try:
                                 await loser.edit(
-                            f"**𝗟𝗚𝗰𝗬・𝗔𝗟𝗘𝗫 Downloader**\n\n**Title**: {title[:22]}\n\n ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**NavyA Dowloader**\n\n**Title**: {title[:22]}\n\n ▓N▓A▓V▓Y▓A▓100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                                 await call_py.join_group_call(
                                     chat_id,
@@ -262,8 +262,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/LGCY_OFFICIALYT"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/LGCY_OFFICIAL")
+                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/NAVYA_SUPPORT"),
+                            InlineKeyboardButton("💭 Support", url=f"https://t.me/NAVYA_DISCUSE")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
@@ -272,7 +272,7 @@ async def vplay(c: Client, m: Message):
                 )
             )
         else:
-            loser = await c.send_message(chat_id, f"**Downloading**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%")
+            loser = await c.send_message(chat_id, f"**Downloading**\n\n0% ▓N▓A▓V▓Y▓A▓ 100%")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             Q = 720
@@ -306,7 +306,7 @@ async def vplay(c: Client, m: Message):
                     else:
                         try:
                             await loser.edit(
-                            f"**𝗟𝗚𝗰𝗬・𝗔𝗟𝗘𝗫 Downloader**\n\n**Title**: {title[:22]}\n\n ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**NavyA Downloader**\n\n**Title**: {title[:22]}\n\n ▓N▓A▓V▓Y▓A▓100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                             await call_py.join_group_call(
                                 chat_id,
