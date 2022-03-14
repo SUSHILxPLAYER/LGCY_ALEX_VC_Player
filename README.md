@@ -1,4 +1,4 @@
-<h2 align="centre">ŁGcY・AŁEX Music Player</h2>
+<h2 align="centre">ŁGcY・NAVyA Music Player</h2>
 
 <p align="center">
   <img src="lgcyalex12.jpg">
@@ -43,13 +43,13 @@
 
 
 
-​[![​Deploy+on+Railway​](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/LagacyAlex/LGCY_ALEX_VC_Player&envs=API_HASH,API_ID,BOT_TOKEN,SESSION_NAME,SUDO_USERS)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/SUSHILxPLAYER/LGCY_ALEX_VC_Player&envs=API_HASH,API_ID,BOT_TOKEN,SESSION_NAME,SUDO_USERS)
 
 
 # Special Thanks
-- [Sunil](https://t.me/Sushil8xop)
+- [ALEX](https://t.me/lgcyalex)
 - [Group](https://t.me/Clan8Xofficial)
 
 
 ### Support & Updates 
-<a href="https://t.me/LGCY_OFFICIAL"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> 
+<a href="https://t.me/ALL_FBAN"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> 
